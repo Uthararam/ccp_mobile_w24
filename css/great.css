@@ -1,6 +1,11 @@
 .pets-background{
     background-image: url(../images/dogback.jpeg);
 }
+@media (prefers-reduced-motion) {
+    img[src*="gif"] {
+        display: none;
+    }
+}
 
 .active{
     background-color: pink;
